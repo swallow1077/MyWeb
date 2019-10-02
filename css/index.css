@@ -1,0 +1,745 @@
+
+@media screen and (max-width:767px){
+
+/*影片區*/
+video{
+    width: 100%;
+    position: absolute;
+    top: -10%;
+}
+.vbox_media{
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.vbox_container{
+    width: 100%;
+}
+/*-----*/
+
+/*影片遮罩*/
+.cover{
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .35);
+    width: 100%;
+}
+/*-----*/
+
+
+/*     遊戲服務     */
+
+/*服務區*/
+.service{
+    position: relative;
+    width: 100%;
+    /* padding-bottom: 50%; */
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.service img{
+    /* position: absolute; */
+    /* width: 100%; */
+    cursor: pointer;
+    vertical-align: middle;
+}
+.service :nth-of-type(1) img{
+    /* clip-path: polygon(0 0, 61% 0, 76% 100%, 0% 100%); */
+    width: 100%;
+}
+.service :nth-of-type(2) img{
+    /* clip-path: polygon(61% 0, 79% 0, 94% 100%, 76% 100%); */
+    width: 100%;
+}
+.service :nth-of-type(3) img{
+    /* clip-path: polygon(79% 0, 100% 0, 100% 100%, 94% 100%); */
+    width: 100%;
+}
+.positionTop{
+    width: 100%;
+    order: 1;
+    border-top: 2px solid #F4F4F4;
+    border-bottom: 2px solid #F4F4F4;
+}
+.positionLeft{
+    width: 50%;
+    order: 2;
+    border-right: 1px solid #F4F4F4;
+    border-bottom: 1px solid #F4F4F4;
+    box-sizing: border-box;
+}
+.positionRight{
+    width: 50%;
+    order: 2;
+    border-left: 1px solid #F4F4F4;
+    border-bottom: 1px solid #F4F4F4;
+    box-sizing: border-box;
+}
+/* .notactive{
+    width: 50%;
+    float: left;
+    border-top: 1px solid #F4F4F4;
+    border-left: 1px solid #F4F4F4;
+    border-bottom: 1px solid #F4F4F4;
+    box-sizing: border-box;
+}
+.service_active{
+    width: 100%;
+} */
+/*-----*/
+
+/*----------*/
+
+
+/*最新消息區*/
+
+/*最新消息卡片*/
+.news_titlebox{
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 36px;
+}
+.news_container{
+    padding: 20px;
+}
+.news_container h3{
+    font-size: 32px;
+    display: block;
+}
+.news_container span{
+    font-size: 24px;
+    display: block;
+}
+.news_container p{
+    margin: 10px 0;
+}
+.news_img > img{
+    vertical-align: middle;
+    width: 100%;
+}
+.news_card{
+    height: 100%;
+    width: 300px;
+    margin: 0 37.5px;
+    float: left;
+    background-color: #FFFFFF;
+    min-height: 350px;
+    overflow: hidden;
+    color: #333;
+}
+.news_card h3 , .news_card p , .news_card span{
+    color: #333;
+}
+.news_board{
+    width: 1125px;
+}
+/*-----*/
+
+/*其他*/
+.news{
+    background-image: url('../img/sos-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.button_box_news{
+    display: block;
+    text-align: center;
+    padding: 40px;
+}
+/*-----*/
+
+/*----------*/
+
+
+/*遊戲介紹區*/
+.game_active{
+    background-image: url('../img/anthem-part2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F1F1F1;
+}
+.game_pro{
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+}
+.game_pro h2{
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.game_pro h3{
+    font-size: 16px;
+    padding: 5px 0;
+}
+.game_pro p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.game_pro h3 , .game_pro p{
+    /* color: #333; */
+    color: #F1F1F1;
+}
+.game_special_fix p{
+    line-height: 28px;
+}
+
+/*still need fix*/
+.game_special h2{
+    color: #FFF;
+}
+.game_special h3 , .game_special p{
+    color: #F4F4F4;
+}
+.game_special{
+    background-image: url('../img/loadout.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Buyyyy{
+    background-image: url('../img/anthem.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Buyyyy_title{
+    font-size: 24px;
+    color: #F1F1F1;
+}
+.button_box{
+    /* width: 20%; */
+    vertical-align: middle;
+    display: inline-block;
+    /* transform: translateX(-50%); */
+    padding: 20px 20px;
+    text-align: center;
+}
+.button_box .button{
+    display: block;
+}
+.button_box :nth-of-type(2){
+    background-color: rgba(0, 0, 0, .25);
+    border: 2px solid #FFF;
+}
+
+
+.text{
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+.text h2{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 32px;
+}
+.text h3{
+    font-size: 16px;
+    margin: 20px 0;
+}
+.text p{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.form{
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    text-align: center;
+}
+.form p{
+    line-height: 20px;
+    margin-top: 10px;
+    text-align: left;
+}
+.form .Email{
+    display: block;
+    margin-bottom: 10px;
+    width: calc( 100% - 40px );
+}
+.birthday{
+    width: calc( 50% - 50px );
+}
+.country{
+    width: 50%;
+    margin-left: 8px;
+}
+.country , .birthday{
+    float: left;
+}
+.Email , .birthday , .country{
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 3px;
+}
+.sub_us{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mb_text{
+    pointer-events: none;
+    /* display: inline-block; */
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 80% !important;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(240, 240, 240, .8);
+    background-color: rgba(100, 100, 100, .6);
+    padding: 10px;
+    border-radius: 10px;
+    left: 0;
+    right: 0;
+    top: 20%;
+    margin: auto;
+    letter-spacing: 1px;
+}
+
+.service .note::before{
+    content: '加入其他三名玩家們一同冒險，同時依協力合作與各自實力獲得獎勵。每一名玩家所選擇的機甲將會決定他們在團隊中所要做出的貢獻與扮演的角色。';
+    /* display: inline-block; */
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(240, 240, 240, .8);
+    background-color: rgba(100, 100, 100, .6);
+    padding: 10px;
+    border-radius: 10px;
+    left: 0%;
+    right: 0;
+    top: 20%;
+    margin: auto;
+    letter-spacing: 1px;
+}
+.service .adapt::before{
+    content: '隨著你不斷探索，你將會在遊戲裡遇到一個個動人心弦的故事及許多獨特且生動的角色。';
+    display: none;
+    /* display: none; */
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(240, 240, 240, .8);
+    background-color: rgba(100, 100, 100, .6);
+    padding: 10px;
+    border-radius: 10px;
+    left: 0%;
+    right: 0;
+    top: 20%;
+    margin: auto;
+    letter-spacing: 1px;
+}
+.service .generic::before{
+    content: '遊戲配對將會保證你輕鬆、快速的找到其他玩家一起結伴冒險。';
+    display: none;
+    /* display: none; */
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(240, 240, 240, .8);
+    background-color: rgba(100, 100, 100, .6);
+    padding: 10px;
+    border-radius: 10px;
+    left: 0%;
+    right: 0;
+    top: 20%;
+    margin: auto;
+    letter-spacing: 1px;
+}
+
+/*-----*/
+}
+
+@media screen and ( min-width:768px ){
+    
+
+/*影片區*/
+video{
+    width: 100%;
+    position: absolute;
+    top: -10%;
+}
+.vbox_media{
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.vbox_container{
+    width: 100%;
+}
+/*-----*/
+
+/*影片遮罩*/
+.cover{
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .35);
+    width: 100%;
+}
+/*-----*/
+
+
+/*     遊戲服務     */
+
+/*服務區*/
+.service{
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+    overflow: hidden;
+}
+.service img{
+    position: absolute;
+    width: 100%;
+    cursor: pointer;
+}
+.service div{
+    width: 100%;
+    padding-bottom: 50%;
+    position: absolute;
+    transition: all 1s;
+}
+.service > div:nth-of-type(1)
+{
+    clip-path: polygon(0 0, 61% 0, 76% 100%, 0% 100%);
+    /* cursor: pointer; */
+}
+.service > div:nth-of-type(2)
+{
+    clip-path: polygon(6% 0, 79% 0, 94% 100%, 21% 100%);
+    /* cursor: pointer; */
+}
+.service > div:nth-of-type(3)
+{
+    clip-path: polygon(24% 0, 100% 0, 100% 100%, 39% 100%);
+
+    /* cursor: pointer; */
+}
+
+/*收合*/
+.service > div:nth-of-type(1).notactive
+{
+    clip-path: polygon(0 0, 6% 0, 21% 100%, 0% 100%);
+}
+.service > div:nth-of-type(2).notactive.right
+{
+    clip-path: polygon(61% 0, 79% 0, 94% 100%, 76% 100%);
+    /* cursor: pointer; */
+}
+.service > div:nth-of-type(2).notactive.left
+{
+    clip-path: polygon(6% 0, 24% 0, 39% 100%, 21% 100%);
+}
+.service > div:nth-of-type(3).notactive
+{
+    clip-path: polygon(79% 0, 100% 0, 100% 100%, 94% 100%);
+    /* cursor: pointer; */
+}
+/*---*/
+/*-----*/
+
+/*----------*/
+
+
+/*最新消息區*/
+
+/*最新消息卡片*/
+.news_card:nth-of-type(1){
+    margin-left: calc( ((100% - 20% * 3) - 6%) / 2 );
+}
+.news_card:nth-of-type(2){
+    margin-left: 3%;
+}
+.news_card:nth-of-type(3){
+    margin-left: 3%;
+}
+.news_titlebox{
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 36px;
+}
+.news_container{
+    padding: 20px;
+}
+.news_container h3{
+    font-size: 32px;
+    display: block;
+}
+.news_container span{
+    margin-top: 10px;
+    font-size: 14px;
+    display: block;
+}
+.news_container p{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .5px;
+    margin: 10px 0;
+}
+.news_img > img{
+    vertical-align: middle;
+    width: 100%;
+}
+.news_card{
+    width: 20%;
+    float: left;
+    background-color: #FFFFFF;
+    min-height: 350px;
+}
+/*-----*/
+.news_card h3 , .news_card p , .news_card span{
+    color: #333;
+}
+/*其他*/
+.news{
+    background-image: url('../img/sos-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.button_box_news{
+    display: block;
+    text-align: center;
+    padding: 40px;
+}
+/*-----*/
+
+/*----------*/
+
+
+/*遊戲介紹區*/
+.game_active{
+    background-image: url('../img/anthem-part2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.game_pro{
+    width: 35%;
+    min-width: 350px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.game_active::before{
+    content: '';
+    height: 90%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 47%;
+}
+.game_pro h2{
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.game_pro h3{
+    font-size: 16px;
+    padding: 5px 0;
+}
+.game_pro p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.game_pro h3 , .game_pro p{
+    color: #333;
+}
+.game_special_fix p{
+    line-height: 28px;
+}
+
+/*still need fix*/
+.game_special h2{
+    color: #FFF;
+}
+.game_special h3 , .game_special p{
+    color: #F4F4F4;
+}
+.game_special{
+    background-image: url('../img/loadout.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.game_special::before{
+    content: '';
+    height: 90%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 17.5%;
+}
+.Buyyyy{
+    background-image: url('../img/anthem.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.Buyyyy_title{
+    font-size: 48px;
+    color: #F1F1F1;
+}
+.Buyyyy::before{
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50%;
+}
+.button_box{
+    width: 20%;
+    vertical-align: middle;
+    display: inline-block;
+    transform: translateX(-50%);
+    padding: 20px 20px;
+    text-align: center;
+}
+.button_box .button{
+    display: block;
+}
+.button_box :nth-of-type(2){
+    background-color: rgba(0, 0, 0, .25);
+    border: 2px solid #FFF;
+}
+
+
+.text{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 14%;
+    width: 32.5%;
+    padding: 20px;
+}
+.text h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+.text h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.text p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.form{
+    display: inline-block;
+    width: 32.5%;
+    vertical-align: top;
+    padding: 20px;
+    margin-left: .5%;
+}
+.form p{
+    line-height: 20px;
+    margin-top: 10px;
+}
+.form .Email{
+    display: block;
+    margin-bottom: 10px;
+    width: calc( 100% - 40px );
+}
+.birthday{
+    width: calc( 50% - 50px );
+}
+.country{
+    width: 50%;
+    margin-left: 8px;
+}
+.country , .birthday{
+    float: left;
+}
+.Email , .birthday , .country{
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 3px;
+}
+.sub_us{
+    padding: 80px;
+}
+
+/*-----*/
+
+.service .note::before{
+    content: '加入其他三名玩家們一同冒險，同時依協力合作與各自實力獲得獎勵。每一名玩家所選擇的機甲將會決定他們在團隊中所要做出的貢獻與扮演的角色。';
+    display: inline-block;
+    /* display: none; */
+    position: absolute;
+    z-index: 1;
+    width: 500px;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(240, 240, 240, .8);
+    background-color: rgba(0, 0, 0, .35);
+    padding: 10px;
+    border-radius: 10px;
+    left: 20%;
+    top: 40%;
+    letter-spacing: 1px;
+}
+.service .adapt::before{
+    content: '隨著你不斷探索，你將會在遊戲裡遇到一個個動人心弦的故事及許多獨特且生動的角色。';
+    display: inline-block;
+    /* display: none; */
+    position: absolute;
+    z-index: 1;
+    width: 500px;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(240, 240, 240, .8);
+    background-color: rgba(0, 0, 0, .35);
+    padding: 10px;
+    border-radius: 10px;
+    left: 35%;
+    top: 40%;
+    letter-spacing: 1px;
+}
+.service .generic::before{
+    content: '遊戲配對將會保證你輕鬆、快速的找到其他玩家一起結伴冒險。';
+    display: inline-block;
+    /* display: none; */
+    position: absolute;
+    z-index: 1;
+    width: 500px;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(240, 240, 240, .8);
+    background-color: rgba(0, 0, 0, .35);
+    padding: 10px;
+    border-radius: 10px;
+    left: 50%;
+    top: 40%;
+    letter-spacing: 1px;
+}
+
+.mb_text{
+    display: none;
+}
+
+}

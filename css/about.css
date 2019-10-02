@@ -1,0 +1,349 @@
+@media screen and ( max-width:767px ){
+    .careers{
+        background-image: url('../img/team.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        /* padding-bottom: 50%; */
+    }
+    /* .careers::before{
+        content: '';
+        display: inline-block;
+        height: 100%;
+        margin-left: 50%;
+        vertical-align: middle;
+    } */
+    .careers{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .join_box{
+        display: inline-block;
+        text-align: center;
+        /* transform: translateX(-50%);
+        vertical-align: middle; */
+        color: #F1F1F1;
+    }
+    .join_box h2{
+        font-size: 24px;
+        display: block;
+        font-weight: bold;
+    }
+    .join_box span{
+        font-size: 24px;
+        display: block;
+        margin: 20px 0;
+    }
+    .spirit{
+        height: 80vh;
+        background-image: url('../img/bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .spirit::before{
+        display: inline-block;
+        height: 100%;
+        content: '';
+        vertical-align: middle;
+        margin-left: 50%;
+    } */
+    .spirit_text{
+        width: calc(100% - 100px);
+        text-align: center;
+        /* vertical-align: middle; */
+        display: inline-block;
+        /* transform: translateX(-50%); */
+        background-color: rgba(241, 241, 241, .5);
+        border-radius: 10px;
+        padding: 40px;
+    }
+    .spirit_text h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .spirit_text p{
+        font-size: 18px;
+        margin: 20px 0;
+        display: none;
+    }
+    .spirit_text span{
+        display: inline-block;
+        margin: 20px 0;
+        color: #555;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .manifesto_title{
+        font-size: 24px;
+        background-color: #F1F1F1;
+        padding: 40px;
+        text-align: center;
+    }
+    .our_values{
+        /* height: 80vh; */
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        justify-content: space-around;
+        background-image: url('../img/poro-final-flipped.png');
+        background-size: cover;
+    }
+    .values{
+        font-size: 20px;
+        border: 1px solid #333;
+        flex-basis: 0;
+        flex-grow: 1;
+        transition: all .7s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(241, 241, 241, .5);
+    }
+    .values ul , .text_box ul{
+        list-style: disc;
+    }
+    .values_card{
+        padding: 30px;
+    }
+    .values_title h3 , .values_title span{
+        /* margin: 20px 0; */
+        display: block;
+    }
+    .values_title span{
+        font-size: 12px;
+    }
+    .values_card ul li{
+        margin: 10px 20px;
+    }
+    .values_card ul{
+        display: none;
+    }
+
+    .values:hover{
+        flex-grow: 3;
+    }
+    .values:hover ul{
+        display: block;
+    }
+
+
+    .characteristic_card{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        /* justify-content: space-between; */
+    }
+    .characteristic_card:nth-of-type(2){
+        /* flex-direction: row-reverse; */
+    }
+    .text_box{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text_box li{
+        margin: 20px;
+    }
+    .text_box :not(li){
+        padding: 10px;
+    }
+    .text_box h3{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .text_box p , .text_box span{
+        line-height: 24px;
+    }
+    .img_box{
+        width: 80%;
+    }
+    .img_box img{
+        width: 100%;
+    }
+    .join{
+        background-image: url('../img/Carousel.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 12.5% 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and ( min-width:768px ){
+    
+    .careers{
+        background-image: url('../img/team.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 937px;
+    }
+    .careers::before{
+        content: '';
+        display: inline-block;
+        height: 100%;
+        margin-left: 50%;
+        vertical-align: middle;
+    }
+    .join_box{
+        display: inline-block;
+        text-align: center;
+        transform: translateX(-50%);
+        vertical-align: middle;
+        color: #F1F1F1;
+    }
+    .join_box h2{
+        font-size: 36px;
+        display: block;
+        font-weight: bold;
+    }
+    .join_box span{
+        font-size: 24px;
+        display: block;
+        margin: 20px 0;
+    }
+    .spirit{
+        height: 650px;
+        background-image: url('../img/bg.jpg');
+        background-position: center;
+        background-size: 100%;
+    }
+    .spirit::before{
+        display: inline-block;
+        height: 100%;
+        content: '';
+        vertical-align: middle;
+        margin-left: 50%;
+    }
+    .spirit_text{
+        width: 35%;
+        text-align: center;
+        vertical-align: middle;
+        display: inline-block;
+        transform: translateX(-50%);
+        background-color: rgba(241, 241, 241, .5);
+        border-radius: 10px;
+        padding: 40px;
+    }
+    .spirit_text h2{
+        font-size: 24px;
+    }
+    .spirit_text p{
+        font-size: 18px;
+        margin: 20px 0;
+    }
+    .spirit_text span{
+        color: #555;
+        font-size: 16px;
+    }
+    
+    .manifesto_title{
+        font-size: 24px;
+        background-color: #F1F1F1;
+        padding: 40px;
+        text-align: center;
+    }
+    .our_values{
+        height: 80vh;
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-around;
+        background-image: url('../img/poro-final-flipped.png');
+        background-size: cover;
+    }
+    .values{
+        font-size: 20px;
+        border: 1px solid #333;
+        flex-basis: 0;
+        flex-grow: 1;
+        transition: all .7s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(241, 241, 241, .5);
+    }
+    .values ul , .text_box ul{
+        list-style: disc;
+    }
+    .values_card{
+        padding: 30px;
+    }
+    .values_title h3 , .values_title span{
+        margin: 20px 0;
+        display: block;
+    }
+    .values_card ul li{
+        margin: 10px 20px;
+    }
+    .values_card ul{
+        display: none;
+        /* height: 0px; */
+        /* transition: all 1s; */
+    }
+    
+    /*-----*/
+    .values:hover ul{
+        display: block;
+    }
+    .values:hover{
+        flex-grow: 3;
+    }
+    /*-----*/
+    
+    .characteristic_card{
+        width: 60%;
+        margin: 40px auto;
+        padding: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .characteristic_card:nth-of-type(2){
+        flex-direction: row-reverse;
+    }
+    .text_box{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text_box li{
+        margin: 20px;
+    }
+    .text_box :not(li){
+        padding: 20px;
+    }
+    .text_box h3{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .text_box p , .text_box span{
+        line-height: 24px;
+    }
+    .img_box{
+        width: 45%;
+        vertical-align: middle;
+    }
+    .img_box img{
+        width: 100%;
+    }
+    .join{
+        background-image: url('../img/Carousel.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 10% 0;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+}

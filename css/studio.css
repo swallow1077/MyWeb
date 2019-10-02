@@ -1,0 +1,372 @@
+
+.about{
+    padding: 50px;
+    padding-top: 76px;
+    background-image: url('../img/runeterra.jpg');
+    background-size: cover;
+    color: #F1F1F1;
+}
+.about h2{
+    margin-top: 50px;
+}
+.about p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.mission{
+    margin: 40px;
+}
+.attitude{
+    margin: 40px;
+}
+
+h2{
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+}
+.mission .container span{
+    line-height: 20px;
+    margin: 10px 0;
+    display: inline-block;
+    font-weight: bold;
+}
+article p , section p{
+    line-height: 20px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.attitude .container p{
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+.belief h2 , .process h2{
+    position: relative;
+}
+.belief h2::after , .process h2::after{
+    background: url('../img/decoration.png');
+    background-size: 100%;
+    background-position: center;
+    opacity: .3;
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.attitude .container h3{
+    color: black;
+}
+.attitude .container{
+    color: #24EDCC;
+    list-style: disc;
+    padding: 20px 0 20px 20px;
+}
+
+.principle {
+    /* margin: 40px; */
+    padding: 60px 40px 60px 60px;
+    text-shadow: 0 0 10px #333;
+    color: #F1F1F1;
+    background-image: url('../img/49371152_p0.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.principle ul{
+    list-style: decimal;
+}
+.principle ul li{
+    margin: 30px 0;
+}
+.principle h3{
+    font-size: 18px;
+}
+.principle span{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.process h2{
+    margin: 40px;
+}
+.process ul{
+    background-image: url('../img/tema.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 145%;
+    position: relative;
+}
+.process ul li{
+    height: 100px;
+    width: 180px;
+    padding: 10px 20px;
+    line-height: 10px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+}
+.process ul li span{
+    /* background-color: #FA0; */
+}
+.process ul li::before{
+    content: '';
+    display: inline-block;
+    width: 80px;
+    border-top: 2px solid black;
+    transform: translate(-10%,-4px);
+}
+.process ul li:nth-of-type(1){
+    top: 120px;
+    left: 100px;
+}
+.process ul li:nth-of-type(2){
+    top: 180px;
+    left: 140px;
+}
+.process ul li:nth-of-type(3){
+    top: 235px;
+    left: 135px;
+}
+.process ul li:nth-of-type(4){
+    top: 280px;
+    left: 140px;
+}
+.process ul li:nth-of-type(5){
+    top: 335px;
+    left: 120px;
+}
+.process ul li:nth-of-type(6){
+    top: 380px;
+    left: 120px;
+}
+.process ul li:nth-of-type(7){
+    top: 420px;
+    left: 75px;
+}
+
+
+/* .process ul{
+    position: relative;
+} */
+
+.process ul .title_box h3::after{
+    /* border-top: 1px solid black;
+    border-left: 1px solid black; */
+    content: '';
+    width: 50px;
+    border-top: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: -100%;
+    transform: translate( -50%,-50%);
+}
+.process ul .title_box h3::before{
+    content: '';
+    width: 25px;
+    border-top: 2px solid black;
+    position: absolute;
+    top: 100%;
+    left: -245%;
+    transform: translate( 50%,-50%);
+    transform: rotate(-45deg);
+    border-radius: 5px;
+}
+.process ul .title_box{
+    position: absolute;
+    top: 80px;
+    left: 160px;
+}
+.inspirational{
+    padding: 20px;
+    overflow: hidden;
+    cursor: default;
+}
+.inspirational_box{
+    width: 1900px;
+    font-size: 0;
+    transition: margin-left .3s ease-out;
+}
+.inspirational_box span{
+    font-size: 14px;
+    float: right;
+}
+
+.inspirational_card{
+    width: 350px;
+    height: 150px;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    vertical-align: middle;
+    box-shadow: 0 0 10px #333;
+    position: relative;
+}
+.inspirational_card span{
+    position: absolute;
+    font-size: 12px;
+    bottom: 10px;
+    right: 20px;
+}
+.inspirational_card .img_box{
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.inspirational_card .img_box img{
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+@media screen and ( min-width:767px ){
+
+    .about{
+        background-position: center;
+        background-attachment: fixed;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about h2{
+        font-size: 36px;
+        font-weight: bold;
+    }
+    .about p{
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 40px;
+    }
+
+    .belief{
+        padding: 0 10%;
+    }
+    .belief .mission .container{
+        padding: 40px;
+        margin: 0 5%;
+    }
+
+    .belief .attitude .container{
+        display: flex;
+        padding: 40px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .container li{
+        width: 40%;
+    }
+
+    /* .principle::before{
+        content: '';
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        background-color: rgba( 100, 100, 100, .5);
+    } */
+    .principle ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .principle ul li{
+        width: 60%;
+    }
+    
+    .process ul .title_box{
+        padding: 0 10%;
+        top: 11%;
+        left: 39%;
+    }
+    .process ul{
+        width: 100%;
+        padding-bottom: 60%;
+    }
+    .process ul .title_box h3::after{
+        width: 100px;
+        top: 10px;
+        left: 60px;
+    }
+    .process ul .title_box h3::before{
+        width: 60px;
+        top: 30px;
+        left: -40px;
+    }
+
+    .process ul li{
+        width: 200px;
+    }
+    .process ul li::before{
+        width: 100px;
+        transform: translate(-20%,-4px);
+    }
+    .process ul li:nth-of-type(1){
+        top: 21%;
+        left: 46%;
+    }
+    .process ul li:nth-of-type(2){
+        top: 32%;
+        left: 49%;
+    }
+    .process ul li:nth-of-type(3){
+        top: 41%;
+        left: 49%;
+    }
+    .process ul li:nth-of-type(4){
+        top: 50%;
+        left: 48%;
+    }
+    .process ul li:nth-of-type(5){
+        top: 60%;
+        left: 46%;
+    }
+    .process ul li:nth-of-type(6){
+        top: 70%;
+        left: 44%;
+    }
+    .process ul li:nth-of-type(7){
+        top: 82%;
+        left: 41%;
+    }
+
+    .inspirational{
+        padding: 70px 10%;
+        /* background: linear-gradient(90deg, rgba(50, 50, 50, 1)0%, rgba(255, 255, 255, .1)10%); */
+    }
+    .inspirational_card{
+        width: 500px;
+        height: 160px;
+        margin: 0 20px;
+        position: relative;
+        /* padding: 10px 0; */
+    }
+    .inspirational_box{
+        font-size: 14px;
+    }
+    .inspirational_card .img_box{
+        margin-top: 10px;
+        margin-right: 10px;
+        float: left;
+    }
+    .inspirational_card .img_box img{
+        width: 100px;
+        height: 100px;
+        vertical-align: middle;
+    }
+    .inspirational_box{
+        width: 2815px;
+    }
+
+    .inspirational_card span{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+}
